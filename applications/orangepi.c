@@ -1,7 +1,13 @@
 #include "orangepi.h"
 
+#include "status.h"
 
-rt_int8_t counter = 's';
+
+
+
+/*-----------------------------------------  香橙派数据接收 ----------------------------------------*/
+
+rt_int8_t counter = 'w';
 
 
 #define SAMPLE_UART_NAME       "uart3"
