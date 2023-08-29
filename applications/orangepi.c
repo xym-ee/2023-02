@@ -7,7 +7,7 @@
 
 /*-----------------------------------------  香橙派数据接收 ----------------------------------------*/
 
-rt_int8_t counter = 'w';
+rt_int8_t counter = 'w'; //wait
 
 
 #define SAMPLE_UART_NAME       "uart3"

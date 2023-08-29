@@ -14,8 +14,6 @@ static void display_thread_entry(void *parameter)
 {
     rt_uint32_t i = 0;
     
-    rt_uint8_t read_flag = 0;
-    
     rt_pin_mode(SM16106_PIN_OE, PIN_MODE_OUTPUT);
     rt_pin_mode(SM16106_PIN_CK, PIN_MODE_OUTPUT);
     rt_pin_mode(SM16106_PIN_DI, PIN_MODE_OUTPUT);

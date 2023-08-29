@@ -385,34 +385,24 @@
           <GroupName>Applications</GroupName>
           <Files>
             <File>
-              <FileName>led.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>applications\led.c</FilePath>
-            </File>
-            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>applications\main.c</FilePath>
             </File>
             <File>
-              <FileName>orangepi.c</FileName>
+              <FileName>status.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Downloads\rt-thread-4.1.0\bsp\stm32\stm32f103-blue-pill\applications\orangepi.c</FilePath>
+              <FilePath>.\applications\status.c</FilePath>
             </File>
             <File>
-              <FileName>README.md</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\README.md</FilePath>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>applications\led.c</FilePath>
             </File>
             <File>
               <FileName>key.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\applications\key.c</FilePath>
-            </File>
-            <File>
-              <FileName>status.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\applications\status.c</FilePath>
             </File>
             <File>
               <FileName>led_display.c</FileName>
@@ -423,6 +413,16 @@
               <FileName>beep.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\applications\beep.c</FilePath>
+            </File>
+            <File>
+              <FileName>orangepi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\applications\orangepi.c</FilePath>
+            </File>
+            <File>
+              <FileName>README.md</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\README.md</FilePath>
             </File>
           </Files>
         </Group>
